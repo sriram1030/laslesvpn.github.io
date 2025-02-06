@@ -25,25 +25,6 @@ body{
 #hero-section{
     align-items: center;
 }
-#header-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-#nav-items{
-    display: flex;
-    column-gap: 30px;
-}
-#nav-items ,li{
-    list-style: none;
-    margin: auto, 50px;
-}
-a{
-    text-decoration: none !important;
-    color: #0B132A !important;
-}
-
 #free-plan{
     border-style: solid ;
     border-color: #F53838;
@@ -147,3 +128,4 @@ a{
     border-radius: 10px;
     row-gap: 10px;
 }
+
