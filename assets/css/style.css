@@ -3,6 +3,9 @@ body{
     font-weight: 555;
     color: #0B132A !important;
 }
+li{
+   list-style: none;
+}
 #btn-sign-in{
     border-color: #F53838;
     border-radius: 10px;
@@ -29,17 +32,15 @@ body{
     border-style: solid ;
     border-color: #F53838;
     border-radius: 8px;
-    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    height: 580px;
+    height: 540px;
 }
 
 #standard-plan{
-    padding: 40px;
     border-style: solid ;
     border-color: #F53838;
     border-radius: 8px;
@@ -48,11 +49,11 @@ body{
     justify-content: center;
     flex-direction: column;
     row-gap: 10px;
-    height: 580px;
+    height: 540px;
 }
 
 #premium-plan{
-    padding: 40px;border-style: solid ;
+    border-style: solid ;
     border-color: #F53838;
     border-radius: 8px;
     display: flex;
@@ -60,16 +61,7 @@ body{
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    height: 580px;
-}
-
-#plans{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    column-gap: 10px;
-    justify-content: center;
+    height: 540px;
 }
 
 #free-plan-features{
@@ -102,12 +94,6 @@ body{
     row-gap: 12px;
 }
 
-#clients{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
 .checked{
     color: gold;
 }
@@ -118,14 +104,31 @@ body{
     gap: 20px;
 }
 #review{
-    padding:40px;
     gap: 20px;
 }
-#testimonies{
-    padding: 20px;
+#reviews{
     border-style: solid;
     border-color: #0B132A;
-    border-radius: 10px;
-    row-gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#testimonies{
+    display: flex;
+    column-gap: 50px;
 }
 
+#clients-logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    column-gap: 10px;
+}
