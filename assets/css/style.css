@@ -132,3 +132,17 @@ li{
     padding: 12px;
     column-gap: 10px;
 }
+
+#footer{
+    align-items: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: #0B132A !important;
+}
+
+#footer-below{
+   display: flex;
+   justify-content: space-between;
+}
