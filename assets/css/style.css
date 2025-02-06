@@ -1,0 +1,149 @@
+body{
+    font-family: Rubik !important;
+    font-weight: 555;
+    color: #0B132A !important;
+}
+#btn-sign-in{
+    border-color: #F53838;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: none;
+}
+#btn{
+    background-color: #F53838;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    color: white;
+}
+#hero-section{
+    align-items: center;
+}
+#header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#nav-items{
+    display: flex;
+    column-gap: 30px;
+}
+#nav-items ,li{
+    list-style: none;
+    margin: auto, 50px;
+}
+a{
+    text-decoration: none !important;
+    color: #0B132A !important;
+}
+
+#free-plan{
+    border-style: solid ;
+    border-color: #F53838;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    height: 580px;
+}
+
+#standard-plan{
+    padding: 40px;
+    border-style: solid ;
+    border-color: #F53838;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 580px;
+}
+
+#premium-plan{
+    padding: 40px;border-style: solid ;
+    border-color: #F53838;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    height: 580px;
+}
+
+#plans{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#free-plan-features{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#standard-plan-features{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#premium-plan-features{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#feature-section-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#features-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.checked{
+    color: gold;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+#review{
+    padding:40px;
+    gap: 20px;
+}
+#testimonies{
+    padding: 20px;
+    border-style: solid;
+    border-color: #0B132A;
+    border-radius: 10px;
+    row-gap: 10px;
+}
